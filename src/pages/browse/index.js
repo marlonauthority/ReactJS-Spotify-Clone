@@ -1,24 +1,57 @@
-import React from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { Creators as PlaylistsActions } from '../../store/ducks/playlists';
 
 import {
   Container, Title, List, Playlist,
 } from './styles';
 
-export default function browse() {
-  return (
-    <Container>
-      <Title>Navegar</Title>
+class Browse extends Component {
+  static propTypes = {
+    getPlaylistsRequest: PropTypes.func.isRequired,
+    playlists: PropTypes.shape({
+      data: PropTypes.arrayOf(
+        PropTypes.shape({
+          id: PropTypes.number,
+          title: PropTypes.string,
+          description: PropTypes.string,
+          thumbnail: PropTypes.string,
+        }),
+      ),
+    }).isRequired,
+  };
 
-      <List>
-        <Playlist to="/playlists/1">
-          <img
-            src="https://s9.limitedrun.com/images/1265295/v600_childish_gambino_awaken_my_love_lp.jpg"
-            alt="Playlist"
-          />
-          <strong>Wake for Love</strong>
-          <p>Sua playlist memoravel.</p>
-        </Playlist>
-      </List>
-    </Container>
-  );
+  componentDidMount() {
+    this.props.getPlaylistsRequest();
+  }
+
+  render() {
+    return (
+      <Container>
+        <Title>Navegar</Title>
+
+        <List>
+          {this.props.playlists.data.map(playlist => (
+            <Playlist key={playlist.id} to={`/playlists/${playlist.id}`}>
+              <img src={playlist.thumbnail} alt={playlist.title} />
+              <strong>{playlist.title}</strong>
+              <p>{playlist.description}</p>
+            </Playlist>
+          ))}
+        </List>
+      </Container>
+    );
+  }
 }
+const mapStateToProps = state => ({
+  playlists: state.playlists,
+});
+const mapDispatchToProps = dispatch => bindActionCreators(PlaylistsActions, dispatch);
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(Browse);
