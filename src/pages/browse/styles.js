@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const Container = styled.div`
   /* flex 1 ocupa todo espaco */
   flex: 1;
-  margin-top: 110px; /* 110px */
+  margin-top: 55px; /* 110px */
   display: flex;
   /* deixa um abaixo do outro */
   flex-direction: column;
