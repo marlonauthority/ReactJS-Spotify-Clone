@@ -19,7 +19,7 @@ export const Nav = styled.ul`
   list-style: none;
   margin-top: 25px;
   &:first-child {
-    0
+    margin: 0;
   }
   li {
     a {
@@ -33,7 +33,7 @@ export const Nav = styled.ul`
         color: #fff;
       }
     }
-    span{
+    span {
       font-size: 11px;
       text-transform: uppercase;
       line-height: 22px;
