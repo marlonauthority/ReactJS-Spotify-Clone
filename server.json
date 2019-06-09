@@ -2,25 +2,25 @@
   "playlists": [
     {
       "id": 1,
-      "title": "Saudade das antigas",
+      "title": "Gangstar",
       "description": "Músicas antigas que vão te lembrar dos melhores momentos.",
       "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg"
     },
     {
       "id": 2,
-      "title": "In Too Deep",
+      "title": "Pagode 100% Violento",
       "description": "As melhores músicas do POP clássico em uma única playlist.",
       "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/foo_fighters.jpg"
     },
     {
       "id": 3,
-      "title": "Salad Days",
+      "title": "Metaleira",
       "description": "Animar seu dia nunca foi tão fácil, ouça essas músicas e tenha um dia mais feliz!",
       "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/alok.jpg"
     },
     {
       "id": 4,
-      "title": "Só elas",
+      "title": "Deep House",
       "description": "As melhores cantoras POP reunidas em uma playlist pra você.",
       "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg"
     }
