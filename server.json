@@ -2,9 +2,9 @@
   "playlists": [
     {
       "id": 1,
-      "title": "Gangstar",
-      "description": "Gangsta Rap é um género do Rap, que tem por característica a descrição do dia-a-dia violento dos jovens de algumas cidades.",
-      "thumbnail": "https://yt3.ggpht.com/a/AGF-l78qlNKSpPZ9Oo5FKIcWoFgDmGoFnoZUwAoyZQ=s900-mo-c-c0xffffffff-rj-k-no"
+      "title": "Metaleira",
+      "description": "Do genêro do Rock, desenvolvendo um som massivo e encorpado, caracterizado por um timbre saturado e distorcido, dando um ar sombrio às composições.",
+      "thumbnail": "https://ae01.alicdn.com/kf/HTB1_zxdIXXXXXaSXFXXq6xXFXXXJ/20pcs-lot-Fashion-Punk-Rock-Metal-Gesture-Car-Body-Film-Stickers-Decoration-Personalized-Motorcycle-Bicycle-PVC.jpg_640x640.jpg"
     },
     {
       "id": 2,
@@ -14,9 +14,9 @@
     },
     {
       "id": 3,
-      "title": "Metaleira",
-      "description": "Do genêro do Rock, tem como raízes o blues-rock e o rock psicodélico, desenvolvendo um som massivo e encorpado, caracterizado por um timbre saturado e distorcido, dando um ar sombrio às composições.",
-      "thumbnail": "https://www.poraodamusica.com/wp-content/uploads/2015/05/avengedcover7.jpg"
+      "title": "Gangstar",
+      "description": "Gangsta Rap é um género do Rap, que tem por característica a descrição do dia-a-dia violento dos jovens de algumas cidades.",
+      "thumbnail": "https://s9.limitedrun.com/images/1265295/v600_childish_gambino_awaken_my_love_lp.jpg"
     },
     {
       "id": 4,
@@ -31,9 +31,9 @@
       "title": "Toot It & Boot It",
       "author": "50 Cent",
       "album": "modafoca",
-      "file": "https://www.youtube.com/watch?v=5qQUMxEe6aU",
+      "file": "https://dc774.4shared.com/img/LbiYTxVhfi/1f021ef5/dlink__2Fdownload_2FLbiYTxVhfi_2F50_5Fonline.mp3_3Fsbsr_3D90486f61a6e043ca2cbdb6d59904ccbaa13_26bip_3DMTg3LjU1LjE1NC4yMDI_26lgfp_3D52_26bip_3DMTg3LjU1LjE1NC4yMDI/preview.mp3",
       "thumbnail": "https://www.kboing.com.br/fotos/imagens/4991ce66c8e7b.jpg",
-      "playlistId": 1
+      "playlistId": 3
     },
     {
       "id": 2,
@@ -49,25 +49,25 @@
       "title": "When Two Are One",
       "author": "Atreyu",
       "album": "Lead Sails Paper Anchor",
-      "file": "file:///Users/mauthority/Downloads/Atreyu%20-%20When%20Two%20Are%20One%20Lyrics-wuV4lkO7fR8.mp3",
+      "file": "https://dc774.4shared.com/img/plOQrzTGgm/dc5b82d6/dlink__2Fdownload_2FplOQrzTGgm_2Fatreyu.mp3_3Fsbsr_3D5c2a750ce85113f2988396530ee595c3a13_26bip_3DMTg3LjU1LjE1NC4yMDI_26lgfp_3D52_26bip_3DMTg3LjU1LjE1NC4yMDI/preview.mp3",
       "thumbnail": "https://i.scdn.co/image/d925555178b750bd351efc62bb884a446553cc79",
-      "playlistId": 3
+      "playlistId": 1
     },
     {
       "id": 4,
       "title": "Hail to the King",
       "author": "Avenged Sevenfold",
       "album": "Hail to the King",
-      "file": "file:///Users/mauthority/Downloads/Hail%20to%20the%20King-MjwttGizNEs.mp3",
+      "file": "https://dc774.4shared.com/img/8xuLrhSagm/79b302c1/dlink__2Fdownload_2F8xuLrhSagm_2Favenged.mp3_3Fsbsr_3D1d1677ae6c98e3296dce95fce60afe54a13_26bip_3DMTg3LjU1LjE1NC4yMDI_26lgfp_3D52_26bip_3DMTg3LjU1LjE1NC4yMDI/preview.mp3",
       "thumbnail": "https://www.ultimate-guitar.com/static/article/news/3/68813_ver1549620981.jpg",
-      "playlistId": 3
+      "playlistId": 1
     },
     {
       "id": 5,
       "title": "FREE TIBET (VINI VICI REMIX)",
       "author": "HILIGHT TRIBE",
       "album": "Namastê 人",
-      "file": "file:///Users/mauthority/Downloads/%E0%A5%90%20ESSA%20VIBE%20VAI%20MUDAR%20A%20SUA%20VIDA%20%E0%A5%90%20%20HILIGHT%20TRIBE%20-%20FREE%20TIBET%20(VINI%20VICI%20REMIX)%20%E2%99%AE%20L.S.D%20MUSIC%20%E0%A5%90-K69CuuHLczE.mp3",
+      "file": "https://dc774.4shared.com/img/qsnQBqntda/13304cd4/dlink__2Fdownload_2FqsnQBqntda_2Fessavibe.mp3_3Fsbsr_3Dd65880f62abfba50e473012d8cdc2cdaa13_26bip_3DMTg3LjU1LjE1NC4yMDI_26lgfp_3D52_26bip_3DMTg3LjU1LjE1NC4yMDI/preview.mp3",
       "thumbnail": "https://i.ytimg.com/vi/K69CuuHLczE/maxresdefault.jpg",
       "playlistId": 4
     },
@@ -76,7 +76,7 @@
       "title": "Aquele Som",
       "author": "Groove Mode",
       "album": "Good Vibes",
-      "file": "file:///Users/mauthority/Downloads/Aquele%20Som%20(Video%20Lyric)%20-%20Aquele%20Som%20&%20Groove%20Mode-qsLcFtKNl4s.mp3",
+      "file": "https://dc774.4shared.com/img/ddF5Bibtfi/b99a4c12/dlink__2Fdownload_2FddF5Bibtfi_2Faquelesom.mp3_3Fsbsr_3D3a6ef76f48e30912f03283c1da22d0dea13_26bip_3DMTg3LjU1LjE1NC4yMDI_26lgfp_3D52_26bip_3DMTg3LjU1LjE1NC4yMDI/preview.mp3",
       "thumbnail": "https://i1.sndcdn.com/artworks-000305105925-3unw3z-t500x500.jpg",
       "playlistId": 4
     },
@@ -85,9 +85,18 @@
       "title": "Medicate",
       "author": "Wiz Khalifa",
       "album": "O.N.I.F.C",
-      "file": "file:///Users/mauthority/Downloads/Wiz%20Khalifa%20-%20Medicated%20feat.%20Chevy%20Woods%20&%20Juicy%20J%20[Official%20Audio]-jLPvmwfklp8.mp3",
+      "file": "https://dc774.4shared.com/img/mgSkNvfMgm/fd479855/dlink__2Fdownload_2FmgSkNvfMgm_2Fmedicate.mp3_3Fsbsr_3D26ff80044fdde105820d0f497d92c268a13_26bip_3DMTg3LjU1LjE1NC4yMDI_26lgfp_3D52_26bip_3DMTg3LjU1LjE1NC4yMDI/preview.mp3",
       "thumbnail": "https://i.pinimg.com/236x/02/d8/a7/02d8a75748192be9eea45b5de603e4a6--wiz-khalifa-tattoos-wiz-kahlifa.jpg",
-      "playlistId": 1
+      "playlistId": 3
+    },
+    {
+      "id": 7,
+      "title": "Mega Star",
+      "author": "Exaltasamba",
+      "album": "Pagode do Exalta Ao Vivo",
+      "file": "https://dc528.4shared.com/img/Mcp2Rhahgm/cff31c01/dlink__2Fdownload_2FMcp2Rhahgm_2FExaltasamba_5F-_5FMega_5FStar-t8lGXi.mp3_3Fsbsr_3D3cfec9c9b1127dde2479956f9a868395a13_26bip_3DMTg3LjU1LjE1NC4yMDI_26lgfp_3D52_26bip_3DMTg3LjU1LjE1NC4yMDI/preview.mp3",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/pt/a/a8/Ao_Vivo_Pagode_do_Exalta.jpg",
+      "playlistId": 2
     }
   ]
 }

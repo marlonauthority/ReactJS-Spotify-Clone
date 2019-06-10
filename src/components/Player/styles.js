@@ -11,12 +11,13 @@ export const Container = styled.div`
 `;
 
 export const Current = styled.div`
+  width: 220px;
   display: flex;
   align-items: center;
 
   img {
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
   }
 
   div {
