@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 import Slider from 'rc-slider';
@@ -21,16 +21,18 @@ import RepeatIcon from '../../assets/images/repeat.svg';
 const Player = ({ player }) => (
   <Container>
     {!!player.currentSong && <Sound url={player.currentSong.file} playStatus={player.status} />}
-    <Current>
-      <img
-        src="https://s9.limitedrun.com/images/1265295/v600_childish_gambino_awaken_my_love_lp.jpg"
-        alt="Album Cover"
-      />
 
-      <div>
-        <span>This is America</span>
-        <small>Childish Gambino</small>
-      </div>
+    <Current>
+      {!!player.currentSong && (
+        <Fragment>
+          <img src={player.currentSong.thumbnail} alt={player.currentSong.title} />
+
+          <div>
+            <span>{player.currentSong.title}</span>
+            <small>{player.currentSong.author}</small>
+          </div>
+        </Fragment>
+      )}
     </Current>
 
     <Progress>
@@ -81,6 +83,9 @@ Player.propTypes = {
   player: PropTypes.shape({
     currentSong: PropTypes.shape({
       file: PropTypes.string,
+      thumbnail: PropTypes.string,
+      title: PropTypes.string,
+      author: PropTypes.string,
     }),
     status: PropTypes.string,
   }).isRequired,
