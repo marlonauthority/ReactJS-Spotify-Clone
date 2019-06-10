@@ -97,6 +97,24 @@
       "file": "https://dc528.4shared.com/img/Mcp2Rhahgm/cff31c01/dlink__2Fdownload_2FMcp2Rhahgm_2FExaltasamba_5F-_5FMega_5FStar-t8lGXi.mp3_3Fsbsr_3D3cfec9c9b1127dde2479956f9a868395a13_26bip_3DMTg3LjU1LjE1NC4yMDI_26lgfp_3D52_26bip_3DMTg3LjU1LjE1NC4yMDI/preview.mp3",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/pt/a/a8/Ao_Vivo_Pagode_do_Exalta.jpg",
       "playlistId": 2
+    },
+    {
+      "id": 8,
+      "title": "Papercut",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 1
+    },
+    {
+      "id": 9,
+      "title": "Points of Authority",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 1
     }
   ]
 }
